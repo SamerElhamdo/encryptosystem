@@ -68,6 +68,14 @@
         preloader.classList.add('fade-out');
         preloader.addEventListener('transitionend', () => {
           preloader.remove();
+          const pricing = document.querySelector('#pricing');
+          pricing.remove();
+          const recentPosts = document.querySelector('#recent-posts');
+          recentPosts.remove();
+
+          const team = document.querySelector('#team');
+          team.remove();
+          
         });
       });
     });
