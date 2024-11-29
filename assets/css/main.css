@@ -580,15 +580,18 @@ h6 {
 
 #preloader_svg svg path.s1 {
   stroke: #fff;
-  fill: #fff;
+  /* fill: #fff; */
 
 
 }
 #preloader_svg svg path.s0 {
   stroke: #ef6603;
-  fill: #ef6603;
+  /* fill: #ef6603; */
 
 }
+
+
+
 @-webkit-keyframes animate-preloader-svg {
   0% {
     stroke-dasharray: 2000;
@@ -604,6 +607,7 @@ h6 {
   100% {
     stroke-dasharray: 0;
     stroke: none;
+
     
   }
 }
